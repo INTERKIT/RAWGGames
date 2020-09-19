@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="game_height">208dp</dimen>
+    <dimen name="game_width">146dp</dimen>
+
+    <dimen name="game_width_large">240dp</dimen>
+    <dimen name="game_height_large">165dp</dimen>
+
+    <dimen name="screenshot_height">320dp</dimen>
+    <dimen name="screenshot_width">220dp</dimen>
+</resources>

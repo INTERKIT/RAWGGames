@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TrueTask</string>
+
+    <string name="games_title">Games</string>
+    <string name="games_retry">Retry</string>
+    <string name="general_error_message">Something went wrong</string>
+    <string name="games_loading">Loading…</string>
+    <string name="games_valve">Valve</string>
+    <string name="games_electronic_arts">Electronic Arts</string>
+    <string name="games_action">Action</string>
+    <string name="games_empty">No games for this category</string>
+    <string name="games_category_publisher_ea">electronic-arts</string>
+    <string name="games_category_genre_action">action</string>
+    <string name="games_screenshots">Screenshots</string>
+    <string name="games_ratings_format">%d ratings</string>
+    <string name="games_released_format">Released: %s</string>
+</resources>

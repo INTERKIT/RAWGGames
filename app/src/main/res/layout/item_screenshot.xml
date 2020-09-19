@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:background="@android:color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/games_loading"
+        android:textAppearance="@style/AppTheme.TextAppearance.Regular16" />
+
+    <com.truetask.common.widgets.RoundedImageView
+        android:id="@+id/screenshotImageView"
+        android:layout_width="@dimen/screenshot_width"
+        android:layout_height="@dimen/screenshot_height"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription"
+        tools:src="@tools:sample/avatars" />
+</FrameLayout>

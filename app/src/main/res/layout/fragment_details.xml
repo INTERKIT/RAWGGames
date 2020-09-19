@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black">
+
+        <ImageView
+            android:id="@+id/navigateBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription" />
+
+        <com.truetask.common.widgets.RoundedImageView
+            android:id="@+id/gameImageView"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/navigateBack"
+            tools:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/gameTitleTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/AppTheme.TextAppearance.Bold24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/gameImageView"
+            app:layout_constraintTop_toTopOf="@id/gameImageView"
+            tools:text="@tools:sample/lorem" />
+
+        <TextView
+            android:id="@+id/releasedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textAppearance="@style/AppTheme.TextAppearance.Regular16"
+            android:textColor="@color/colorGrey"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/gameImageView"
+            app:layout_constraintTop_toBottomOf="@id/gameTitleTextView"
+            tools:text="Released date: 2018-10-13" />
+
+        <TextView
+            android:id="@+id/ratingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textAppearance="@style/AppTheme.TextAppearance.Bold24"
+            app:layout_constraintStart_toEndOf="@id/gameImageView"
+            app:layout_constraintTop_toBottomOf="@id/releasedDate"
+            tools:text="4.7" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:numStars="5"
+            app:layout_constraintBottom_toBottomOf="@id/ratingTextView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0"
+            app:layout_constraintStart_toEndOf="@id/ratingTextView"
+            app:layout_constraintTop_toTopOf="@id/ratingTextView"
+            tools:rating="4.7" />
+
+        <TextView
+            android:id="@+id/ratingsCountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textAppearance="@style/AppTheme.TextAppearance.Regular16"
+            android:textColor="@color/colorGrey"
+            app:layout_constraintStart_toStartOf="@id/ratingTextView"
+            app:layout_constraintTop_toBottomOf="@id/ratingTextView"
+            tools:text="226 ratings" />
+
+        <androidx.constraintlayout.widget.Barrier
+            android:id="@+id/headerBarrier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:barrierDirection="bottom"
+            app:constraint_referenced_ids="ratingsCountTextView"
+            app:layout_constraintTop_toBottomOf="@id/ratingsCountTextView" />
+
+        <TextView
+            android:id="@+id/screenshotsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:layout_marginTop="24dp"
+            android:text="@string/games_screenshots"
+            android:textAppearance="@style/AppTheme.TextAppearance.Bold24"
+            app:layout_constraintTop_toBottomOf="@id/headerBarrier" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/screenshotsRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/screenshotsTextView"
+            tools:listitem="@layout/item_screenshot" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
