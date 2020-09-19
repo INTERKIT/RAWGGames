@@ -13,7 +13,6 @@ Template uses a number of open source projects to work properly:
 * [RxJava/RxAndroid] - RxJava bindings for Android
 * [Room] - persistence library provides an abstraction layer over SQLite to allow fluent database access while harnessing the full power of SQLite.
 
-MIT
 
 ## Screenshots
 <img src="https://imgur.com/WtFBsKH.png" width="170" height="300"> <img src="https://imgur.com/Rj7lblc.png" width="170" height="300"> <img src="https://imgur.com/XrDmlhF.png" width="170" height="300"> 
