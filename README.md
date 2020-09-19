@@ -16,11 +16,11 @@ Template uses a number of open source projects to work properly:
 MIT
 
 ## Screenshots
-![img](https://i.imgur.com/WtFBsKH.png)
-![img](https://i.imgur.com/Rj7lblc.png)
-![img](https://i.imgur.com/XrDmlhF.png)
-![img](https://i.imgur.com/VND2a4L.png)
-![img](https://imgur.com/qZoGsQk.png)
+<img src=https://i.imgur.com/WtFBsKH.png" width="170" height="300">
+<img src=https://i.imgur.com/Rj7lblc.png" width="170" height="300">
+<img src=https://i.imgur.com/XrDmlhF.png" width="170" height="300">
+<img src=https://i.imgur.com/VND2a4L.png" width="170" height="300">
+<img src=https://imgur.com/qZoGsQk.png" width="170" height="300">
 
 **Free Software, Hell Yeah!**
 
