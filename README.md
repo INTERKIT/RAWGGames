@@ -3,7 +3,7 @@ RAWGGames shows data from RAWG Video Games Database API (v1.0).
 
 The app shows three horizontal lists with pagination support.
 All games are being persisted in database.  
-It also support landscape orientation 
+It also supports landscape orientation 
 
 ## Tech Stack
 Template uses a number of open source projects to work properly:
