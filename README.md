@@ -17,11 +17,11 @@ MIT
 
 ## Screenshots
 
-![](https://i.imgur.com/WtFBsKH.png" =170x300)
-![](https://i.imgur.com/Rj7lblc.png" =170x300)
-![](https://i.imgur.com/XrDmlhF.png" =170x300)
-![](https://i.imgur.com/VND2a4L.png" =170x300)
-![](https://i.imgur.com/qZoGsQk.png" =170x300)
+![](https://i.imgur.com/WtFBsKH.png =170x300)
+![](https://i.imgur.com/Rj7lblc.png =170x300)
+![](https://i.imgur.com/XrDmlhF.png =170x300)
+![](https://i.imgur.com/VND2a4L.png =170x300)
+![](https://i.imgur.com/qZoGsQk.png =170x300)
 
 **Free Software, Hell Yeah!**
 
