@@ -1,5 +1,8 @@
 # About the app
 RAWGGames shows lists of games from RAWG Video Games Database API (v1.0)
+The app shows three horizontal lists with pagination support.
+All games are being persisted in database. 
+It also support landscape orientation
 
 ## Tech Stack
 Template uses a number of open source projects to work properly:
@@ -12,6 +15,12 @@ Template uses a number of open source projects to work properly:
 
 MIT
 
+## Screenshots
+![img](https://i.imgur.com/WtFBsKH.png)
+![img](https://i.imgur.com/Rj7lblc.png)
+![img](https://i.imgur.com/XrDmlhF.png)
+![img](https://i.imgur.com/VND2a4L.png)
+![img](https://imgur.com/qZoGsQk.png)
 
 **Free Software, Hell Yeah!**
 
