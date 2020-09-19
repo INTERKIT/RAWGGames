@@ -16,12 +16,9 @@ Template uses a number of open source projects to work properly:
 MIT
 
 ## Screenshots
-<img src="https://imgur.com/WtFBsKH.png" width="170" height="300">
-![](https://i.imgur.com/WtFBsKH.png)
-![](https://i.imgur.com/Rj7lblc.png =170x300)
-![](https://i.imgur.com/XrDmlhF.png =170x300)
-![](https://i.imgur.com/VND2a4L.png =170x300)
-![](https://i.imgur.com/qZoGsQk.png =170x300)
+<img src="https://imgur.com/WtFBsKH.png" width="170" height="300"><img src="https://imgur.com/Rj7lblc.png" width="170" height="300"> 
+<img src="https://imgur.com/XrDmlhF.png" width="170" height="300"><img src="https://imgur.com/VND2a4L.png" width="170" height="300"> 
+<img src="https://imgur.com/qZoGsQk.png" width="170" height="300"> 
 
 **Free Software, Hell Yeah!**
 
