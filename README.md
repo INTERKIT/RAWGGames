@@ -17,10 +17,7 @@ MIT
 
 ## Screenshots
 <img src=https://i.imgur.com/WtFBsKH.png" width="170" height="300">
-<img src=https://i.imgur.com/Rj7lblc.png" width="170" height="300">
-<img src=https://i.imgur.com/XrDmlhF.png" width="170" height="300">
-<img src=https://i.imgur.com/VND2a4L.png" width="170" height="300">
-<img src=https://i.imgur.com/qZoGsQk.png" width="170" height="300">
+
 
 **Free Software, Hell Yeah!**
 
