@@ -16,6 +16,7 @@ Template uses a number of open source projects to work properly:
 MIT
 
 ## Screenshots
+
 ![](https://i.imgur.com/WtFBsKH.png" =170x300)
 ![](https://i.imgur.com/Rj7lblc.png" =170x300)
 ![](https://i.imgur.com/XrDmlhF.png" =170x300)
