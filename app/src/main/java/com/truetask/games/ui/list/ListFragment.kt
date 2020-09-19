@@ -12,6 +12,17 @@ import com.truetask.utils.add
 import kotlinx.android.synthetic.main.fragment_list.listRecyclerView
 import org.koin.android.ext.android.inject
 
+/**
+ * The list of games can be easily extended:
+ * 1. Create new type in [GamesType]
+ * 2. Create boundary callback with own configs
+ * 3. Extend from [com.truetask.games.domain.paging.BaseGamesBoundaryCallback].
+ * 4. Implement [BoundaryCallbackContract] and its methods
+ * Example: [com.truetask.games.domain.paging.boundary.ActionGamesBoundaryCallback]
+ * 5. Add your boundary callback in [BoundaryCallbackFactory]
+ * 6. [MultiPagingManager] will find your boundary callback by category and call necessary methods
+ * */
+
 class ListFragment : Fragment(R.layout.fragment_list) {
 
     companion object {
