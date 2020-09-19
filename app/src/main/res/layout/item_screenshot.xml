@@ -7,9 +7,11 @@
     tools:background="@android:color/black">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="@dimen/screenshot_width"
+        android:layout_height="@dimen/screenshot_height"
         android:layout_gravity="center"
+        android:background="@drawable/background_light_rounded"
+        android:gravity="center"
         android:text="@string/games_loading"
         android:textAppearance="@style/AppTheme.TextAppearance.Regular16" />
 
