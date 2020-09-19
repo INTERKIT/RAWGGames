@@ -3,7 +3,7 @@ package com.truetask.common.db
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
-import com.truetask.common.db.RawDatabase.Companion.DATABASE_VERSION
+import com.truetask.common.db.RAWGDatabase.Companion.DATABASE_VERSION
 import com.truetask.games.db.GameEntity
 import com.truetask.games.db.GamesDao
 
@@ -15,10 +15,10 @@ import com.truetask.games.db.GamesDao
 @TypeConverters(
     GameCategoryConverter::class
 )
-abstract class RawDatabase : RoomDatabase() {
+abstract class RAWGDatabase : RoomDatabase() {
 
     companion object {
-        const val DATABASE_NAME = "RAW_GAMES"
+        const val DATABASE_NAME = "RAWG_GAMES"
         const val DATABASE_VERSION = 1
     }
 

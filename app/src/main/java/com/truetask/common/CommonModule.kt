@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.room.Room
 import com.truetask.BuildConfig
 import com.truetask.R
-import com.truetask.common.db.RawDatabase
-import com.truetask.common.db.RawDatabase.Companion.DATABASE_NAME
+import com.truetask.common.db.RAWGDatabase
+import com.truetask.common.db.RAWGDatabase.Companion.DATABASE_NAME
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import org.koin.dsl.module
@@ -39,12 +39,12 @@ object CommonModule {
 
         single {
             Room
-                .databaseBuilder(get(), RawDatabase::class.java, DATABASE_NAME)
+                .databaseBuilder(get(), RAWGDatabase::class.java, DATABASE_NAME)
                 .fallbackToDestructiveMigration()
                 .setQueryExecutor(Executors.newCachedThreadPool())
                 .build()
         }
 
-        single { get<RawDatabase>().gamesDao() }
+        single { get<RAWGDatabase>().gamesDao() }
     }
 }
