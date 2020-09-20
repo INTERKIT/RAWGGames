@@ -13,9 +13,11 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="@dimen/game_width_large"
+            android:layout_height="@dimen/game_height_large"
             android:layout_gravity="center"
+            android:background="@drawable/background_light_rounded"
+            android:gravity="center"
             android:text="@string/games_loading"
             android:textColor="@android:color/white" />
 
