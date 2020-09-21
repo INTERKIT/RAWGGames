@@ -29,4 +29,4 @@ Template uses a number of open source projects to work properly:
    [Paging]: <https://developer.android.com/topic/libraries/architecture/paging>
    [RxJava/RxAndroid]: <https://github.com/ReactiveX/RxAndroid>
    [Room]: <https://developer.android.com/training/data-storage/room/index.html>
-   [Glide] <https://github.com/bumptech/glide>
+   [Glide]: <https://github.com/bumptech/glide>
